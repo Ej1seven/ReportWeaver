@@ -1,3 +1,6 @@
+export const API_BASE_URL =
+  import.meta.env.VITE_API_BASE_URL || "http://localhost:8080";
+
 /**
  * Sends a request to stop all active Selenium sessions on the server.
  *
@@ -6,12 +9,9 @@
 export const stopSeleniumSessions = async (): Promise<string> => {
   try {
     // Send a POST request to the backend to stop Selenium sessions
-    const response = await fetch(
-      "http://localhost:8080/api/server/stop-selenium",
-      {
-        method: "POST", // HTTP method used for stopping the session
-      }
-    );
+    const response = await fetch(`${API_BASE_URL}/api/server/stop-selenium`, {
+      method: "POST", // HTTP method used for stopping the session
+    });
 
     // Check if the response is unsuccessful, throw an error if so
     if (!response.ok) {

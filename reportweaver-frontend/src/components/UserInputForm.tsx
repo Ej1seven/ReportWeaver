@@ -1,4 +1,5 @@
 import React, { FC, useState, useEffect } from "react";
+import { API_BASE_URL } from "../api/api";
 import { handleApiError } from "../api/errorHandler";
 import { Input } from "../components/ui/input";
 import { Label } from "../components/ui/label";
@@ -86,7 +87,7 @@ const UserInputForm: FC<UserInputFormProps> = ({
     onSubmit();
 
     try {
-      const response = await fetch("http://localhost:8080/", {
+      const response = await fetch(`${API_BASE_URL}/`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
