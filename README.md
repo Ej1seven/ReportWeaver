@@ -1,6 +1,6 @@
 # ReportWeaver
 
-ReportWeaver is a full-stack application designed to automate the retrieval and processing of accessibility reports. The backend, built with Java Spring Boot, executes Selenium requests to extract data from the PopeTech accessibility report website. Once the data is collected, a Google Sheet is created on the backend using the Google Docs API, and the generated sheet URL is then provided to the frontend for user access.
+ReportWeaver is a full-stack application designed to automate the retrieval and processing of accessibility reports. The backend, built with Java Spring Boot, executes Selenium requests to extract data from PopeTech, a web accessibility and reporting tool. Once the data is collected, a Google Sheet is created on the backend using the Google Docs API, and the generated sheet URL is then provided to the frontend for user access.
 
 The frontend is developed with React and styled using Tailwind CSS, providing a very simple and responsive UI for users to initiate and track report processing.
 ## Table of Contents
