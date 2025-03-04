@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-maroon: #7a0019;
+  --color-darkMaroon: #5b0013;
+}
+
+html,
+body,
+#root {
+  @apply min-h-screen bg-white text-black transition-colors dark:bg-gray-900 dark:text-white;
+}
