@@ -1,7 +1,8 @@
 # ReportWeaver
 
-ReportWeaver is a full-stack application designed to streamline the generation and management of reports. This repository contains both the frontend (TypeScript/Vite) and backend (Java Spring Boot) components.
+ReportWeaver is a full-stack application designed to automate the retrieval and processing of accessibility reports. The backend, built with Java Spring Boot, executes Selenium requests to extract data from the PopeTech accessibility report website. Once the data is collected, a Google Sheet is created on the backend using the Google Docs API, and the generated sheet URL is then provided to the frontend for user access.
 
+The frontend is developed with React and styled using Tailwind CSS, providing a very simple and responsive UI for users to initiate and track report processing.
 ## Table of Contents
 
 - [Project Structure](#project-structure)
@@ -17,8 +18,8 @@ ReportWeaver is a full-stack application designed to streamline the generation a
 
 ```
 ReportWeaver/
-├── reportweaver-backend/  # Backend (Spring Boot, Maven)
-└── reportweaver-frontend/ # Frontend (TypeScript, Vite)
+├── reportweaver-backend/  # Backend (Spring Boot, Selenium, Google Docs API)
+└── reportweaver-frontend/ # Frontend (React, Tailwind CSS, Vite)
 ```
 
 ## Prerequisites
@@ -28,6 +29,7 @@ Ensure you have the following installed on your system:
 - **Backend:**
   - [Java 17+](https://adoptopenjdk.net/)
   - [Maven](https://maven.apache.org/)
+  - [Chromedriver](https://developer.chrome.com/docs/chromedriver/)(for Selenium operations)
 
 - **Frontend:**
   - [Node.js](https://nodejs.org/) (version 16+ recommended)
