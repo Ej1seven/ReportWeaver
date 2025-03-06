@@ -104,7 +104,7 @@ Visit `http://localhost:5173` in your browser to access the application.
 
 Watch the demo video below to see ReportWeaver in action:
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/5SJRLgQF17M" frameborder="0" allowfullscreen></iframe>
+[![Watch the Demo](https://img.youtube.com/vi/5SJRLgQF17M/0.jpg)](https://www.youtube.com/watch?v=5SJRLgQF17M)
 
 ## Contributing
 
