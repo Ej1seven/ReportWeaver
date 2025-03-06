@@ -104,8 +104,11 @@ Visit `http://localhost:5173` in your browser to access the application.
 
 Watch the demo video below to see ReportWeaver in action:
 
-[![Watch the Demo](https://img.youtube.com/vi/5SJRLgQF17M/0.jpg)](https://www.youtube.com/watch?v=5SJRLgQF17M)
-
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=5SJRLgQF17M" target="_blank">
+    <img src="https://img.youtube.com/vi/5SJRLgQF17M/0.jpg" alt="Watch the Demo" width="600">
+  </a>
+</p>
 ## Contributing
 
 We welcome contributions! Please fork the repository and create a pull request with your changes. Ensure your code adheres to project standards and includes appropriate documentation.
