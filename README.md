@@ -11,6 +11,7 @@ The frontend is developed with React and styled using Tailwind CSS, providing a 
 - [Frontend Setup](#frontend-setup)
 - [Environment Variables](#environment-variables)
 - [Running the Application](#running-the-application)
+- [Demo Video](#demo-video)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -98,6 +99,12 @@ Ensure you have the following installed on your system:
    ```
 
 Visit `http://localhost:5173` in your browser to access the application.
+
+##Demo Video
+
+Watch the demo video below to see ReportWeaver in action:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5SJRLgQF17M" frameborder="0" allowfullscreen></iframe>
 
 ## Contributing
 
