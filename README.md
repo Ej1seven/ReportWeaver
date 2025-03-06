@@ -100,7 +100,7 @@ Ensure you have the following installed on your system:
 
 Visit `http://localhost:5173` in your browser to access the application.
 
-##Demo Video
+## Demo Video
 
 Watch the demo video below to see ReportWeaver in action:
 
