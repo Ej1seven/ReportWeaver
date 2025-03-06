@@ -109,6 +109,7 @@ Watch the demo video below to see ReportWeaver in action:
     <img src="https://img.youtube.com/vi/5SJRLgQF17M/0.jpg" alt="Watch the Demo" width="600">
   </a>
 </p>
+
 ## Contributing
 
 We welcome contributions! Please fork the repository and create a pull request with your changes. Ensure your code adheres to project standards and includes appropriate documentation.
